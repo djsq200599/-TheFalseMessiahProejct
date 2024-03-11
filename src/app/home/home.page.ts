@@ -16,7 +16,7 @@ export class HomePage implements OnInit {
 
   ngOnInit(): void {
     const browserInstance = this.browser.create(
-      'https://cafeceros.com/',
+      'https://archivos.meteochile.gob.cl/portaldmc/movil/movil_inicio.php',
       '_self',
       'location=no,hidenavigationbuttons=true,hideurlbar=true,zoom=no'
     );
